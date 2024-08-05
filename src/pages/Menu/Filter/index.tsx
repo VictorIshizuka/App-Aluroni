@@ -1,5 +1,7 @@
 import filter from "./filter.json";
+
 import styles from "./Filter.module.scss";
+
 import classNames from "classnames";
 
 type IOption = (typeof filter)[0];

@@ -1,6 +1,8 @@
-import styles from "./Item.module.scss";
-import menu from "../../../../data/menu.json";
 import classNames from "classnames";
+
+import menu from "../../../../data/menu.json";
+
+import styles from "./Item.module.scss";
 
 type Props = (typeof menu)[0];
 

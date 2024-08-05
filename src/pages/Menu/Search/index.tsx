@@ -1,12 +1,13 @@
-import styles from "./Search.module.scss";
 import { CgSearch } from "react-icons/cg";
+
+import styles from "./Search.module.scss";
 
 interface Props {
   search: string;
   setSearch: React.Dispatch<React.SetStateAction<string>>;
 }
 
-export default function onSearch({ search, setSearch }: Props) {
+export default function OnSearch({ search, setSearch }: Props) {
   return (
     <div className={styles.search}>
       <input
