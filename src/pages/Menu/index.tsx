@@ -6,15 +6,12 @@ import Filter from "./Filter";
 import Order from "./Order";
 import Itens from "./Itens";
 
-export default function Menu() {
+export function Menu() {
   const [search, setSearch] = useState("");
   const [isFilter, setFilter] = useState<number | null>(null);
   const [order, setOrder] = useState("");
   return (
     <main>
-      <nav className={styles.menu}>
-        <img src={Logo} width={200} alt="" />
-      </nav>
       <header className={styles.header}>
         <div className={styles.header__text}>A casa do código e da massa</div>
       </header>

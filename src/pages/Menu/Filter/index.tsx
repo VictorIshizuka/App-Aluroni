@@ -1,4 +1,3 @@
-import React from "react";
 import filter from "./filter.json";
 import styles from "./Filter.module.scss";
 import classNames from "classnames";
